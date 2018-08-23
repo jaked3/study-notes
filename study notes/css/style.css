@@ -1,0 +1,42 @@
+*{
+	/*for all elements*/
+}
+
+body{
+	background-image: url(backround.jpg);
+	background-size: cover;
+}
+
+h2, p:hover {
+	color: #AA4139;
+	/* background-color: rgba(255,176,170, 15);*/
+	text-align: center;
+	border: 5px solid rgba(255,176,170, 50);
+	cursor: pointer;
+}
+
+p {
+	color: pink;
+	line-height: 20px;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 80%;
+	font-family: 'Roboto', sans-serif; 
+}
+img{
+	float: left;
+	width:300px;
+	height:300px;
+}
+
+li{
+	list-style: none;
+	display: inline-block;
+}
+.webtext {
+	border: 5px dashed green;
+}
+
+/*#div1 {
+	background: rgba(255,0,0, 0.2);
+}*/
